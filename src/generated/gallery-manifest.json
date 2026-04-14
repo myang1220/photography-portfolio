@@ -1,57 +1,93 @@
 {
-  "generatedAt": "2026-04-14T03:13:11.091Z",
+  "generatedAt": "2026-04-14T03:53:42.979Z",
   "sets": [
     {
       "id": "evening-stroll-around-providence",
       "title": "Evening Stroll Around Providence",
       "images": [
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2756.jpg",
-          "alt": "IMG 2756"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-1.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-1.webp",
+          "alt": "stroll 1",
+          "width": 800,
+          "height": 1200
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2759.jpg",
-          "alt": "IMG 2759"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-2.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-2.webp",
+          "alt": "stroll 2",
+          "width": 800,
+          "height": 533
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2760.jpg",
-          "alt": "IMG 2760"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-3.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-3.webp",
+          "alt": "stroll 3",
+          "width": 800,
+          "height": 1200
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2775.jpg",
-          "alt": "IMG 2775"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-4.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-4.webp",
+          "alt": "stroll 4",
+          "width": 800,
+          "height": 533
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2809.jpg",
-          "alt": "IMG 2809"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-5.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-5.webp",
+          "alt": "stroll 5",
+          "width": 800,
+          "height": 1200
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2814.jpg",
-          "alt": "IMG 2814"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-6.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-6.webp",
+          "alt": "stroll 6",
+          "width": 800,
+          "height": 533
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2850.jpg",
-          "alt": "IMG 2850"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-7.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-7.webp",
+          "alt": "stroll 7",
+          "width": 800,
+          "height": 1200
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2853.jpg",
-          "alt": "IMG 2853"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-8.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-8.webp",
+          "alt": "stroll 8",
+          "width": 800,
+          "height": 1200
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2857.jpg",
-          "alt": "IMG 2857"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-9.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-9.webp",
+          "alt": "stroll 9",
+          "width": 800,
+          "height": 1200
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2859.jpg",
-          "alt": "IMG 2859"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-10.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-10.webp",
+          "alt": "stroll 10",
+          "width": 800,
+          "height": 1200
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2860.jpg",
-          "alt": "IMG 2860"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-11.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-11.webp",
+          "alt": "stroll 11",
+          "width": 800,
+          "height": 1200
         },
         {
-          "src": "photos/Evening%20Stroll%20Around%20Providence/IMG_2861.jpg",
-          "alt": "IMG 2861"
+          "thumb": "photos/Evening%20Stroll%20Around%20Providence/thumbs/stroll-12.webp",
+          "full": "photos/Evening%20Stroll%20Around%20Providence/full/stroll-12.webp",
+          "alt": "stroll 12",
+          "width": 800,
+          "height": 1200
         }
       ]
     }

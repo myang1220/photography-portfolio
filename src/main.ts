@@ -2,8 +2,11 @@ import "./style.css";
 import manifest from "./generated/gallery-manifest.json";
 
 type GalleryImage = {
-  src: string;
+  thumb: string;
+  full: string;
   alt: string;
+  width: number;
+  height: number;
 };
 type GallerySet = { id: string; title: string; images: GalleryImage[] };
 
@@ -102,8 +105,10 @@ function buildApp(root: HTMLElement) {
         });
         const img = el("img", {
           className: "thumb__img",
-          src: image.src,
+          src: image.thumb,
           alt: image.alt,
+          width: image.width,
+          height: image.height,
           loading: "lazy",
           decoding: "async",
         });
@@ -182,7 +187,7 @@ function buildApp(root: HTMLElement) {
 
     function render() {
       const item = set.images[idx];
-      img.src = item.src;
+      img.src = item.full;
       img.alt = item.alt;
       caption.textContent = item.alt;
       prevBtn.disabled = idx <= 0;
@@ -213,17 +218,11 @@ function buildApp(root: HTMLElement) {
     closeBtn.addEventListener("click", close);
     prevBtn.addEventListener("click", (e) => {
       e.stopPropagation();
-      if (idx > 0) {
-        idx -= 1;
-        render();
-      }
+      if (idx > 0) { idx -= 1; render(); }
     });
     nextBtn.addEventListener("click", (e) => {
       e.stopPropagation();
-      if (idx < set.images.length - 1) {
-        idx += 1;
-        render();
-      }
+      if (idx < set.images.length - 1) { idx += 1; render(); }
     });
 
     document.addEventListener("keydown", onKey);
