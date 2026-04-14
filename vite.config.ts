@@ -1,9 +1,11 @@
 import { defineConfig } from "vite";
 
 export default defineConfig(() => {
-  // For GitHub Pages, the site is usually served under `/<repo>/`.
-  // The deploy workflow sets BASE_PATH accordingly.
-  const base = process.env.BASE_PATH ?? "/";
+  // Prefer explicit BASE_PATH; otherwise auto-detect repo path on GitHub Actions.
+  const repo = process.env.GITHUB_REPOSITORY?.split("/")[1];
+  const inferredBase =
+    process.env.GITHUB_ACTIONS === "true" && repo ? `/${repo}/` : "/";
+  const base = process.env.BASE_PATH ?? inferredBase;
 
   return {
     base,

@@ -38,7 +38,7 @@ function toAltText(filename) {
 function publicUrl(folderName, fileName) {
   const a = encodeURIComponent(folderName);
   const b = encodeURIComponent(fileName);
-  return `/photos/${a}/${b}`;
+  return `photos/${a}/${b}`;
 }
 
 function main() {
