@@ -47,7 +47,6 @@ function main() {
   if (!fs.existsSync(photosDir)) {
     fs.mkdirSync(photosDir, { recursive: true });
   }
-
   const entries = fs.readdirSync(photosDir, { withFileTypes: true });
   const folders = entries
     .filter((d) => d.isDirectory() && !d.name.startsWith("."))
@@ -58,6 +57,7 @@ function main() {
 
   for (const folderName of folders) {
     const dir = path.join(photosDir, folderName);
+
     const files = fs
       .readdirSync(dir, { withFileTypes: true })
       .filter((d) => d.isFile() && !d.name.startsWith("."))
@@ -83,5 +83,4 @@ function main() {
     `[gallery] Wrote ${sets.length} set(s) to ${path.relative(root, outFile)}`
   );
 }
-
 main();

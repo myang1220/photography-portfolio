@@ -1,7 +1,10 @@
 import "./style.css";
 import manifest from "./generated/gallery-manifest.json";
 
-type GalleryImage = { src: string; alt: string };
+type GalleryImage = {
+  src: string;
+  alt: string;
+};
 type GallerySet = { id: string; title: string; images: GalleryImage[] };
 
 const SITE_LABEL = "Photography Portfolio";
